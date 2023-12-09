@@ -1,0 +1,229 @@
+ * {
+    margin: 0;
+}
+
+:root {
+    font-size: 16px;
+   }
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero_img{
+    background: url(images/image\ 1.png);
+    width: 100%;
+    height: 1024px;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 100% 1024px;
+}
+
+.hero_text{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.hero_text a {
+    color: #FDF0D5;
+    line-height: 5rem;
+    font-size: 7.5rem;
+    font-weight: 600;
+    letter-spacing: 6px;
+    filter: drop-shadow(0px 5px 20px black);
+    text-decoration: none;
+    background-image: linear-gradient(
+        to right,
+        #C1121F,
+        #003049 50%,
+        #FDF0D5 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: ease-out 0.3s;
+      padding: 3% 0 3% 0;
+}
+
+.hero_text a:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+}
+
+.hero_text a:hover {
+    background-position: 0;
+   }
+
+.hero_text a span{
+    color: #FDF0D5;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2.50px;
+    filter: drop-shadow(0px 5px 20px black);
+    background-image: linear-gradient(
+        to right,
+        #C1121F,
+        #54b3d6 50%,
+        #FDF0D5 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+.navigation{
+    display: flex;
+    margin-left: 100px;
+    width: auto;
+    height: 130px;
+    align-items: center;
+}
+
+.navigation a{
+    margin-right: 40px;
+    font-size: 1.5rem;
+    filter: drop-shadow(0px 2px 4px black);
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 2% 2%;
+    background-image: linear-gradient(
+        to right,
+        #C1121F,
+        #003049 50%,
+        #FDF0D5 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: ease-out 0.3s;
+}
+
+.navigation a:before{
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+}
+
+.navigation a:hover{
+    background-position: 0;
+}
+
+.content_1 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_1_text{
+    text-align: center;
+    padding-top: 20%;
+}
+
+.content_1_title{
+    color: #C1121F;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.content_1_subtitle{
+    color: #003049;
+    padding-top: 3%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1.50px;
+}
+
+.content_description {
+    padding-top: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 400;
+    letter-spacing: 1.25px;
+    padding-bottom: 20%;
+}
+
+.content_2{
+    background-image: url(images/Group\ 1.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.content_2_title h1 {
+    font-weight: 600;
+    color: #003049;
+    font-size: 2.5rem;
+    padding: 18rem 0 1rem 10rem;
+}
+
+.content_2_description{
+    font-size: 1.875rem;
+    width: 35%;
+    padding: 0rem 0 18rem 10rem;
+}
+
+.content_3{
+    background-color: #669BBC;
+    text-align: center;
+}
+
+.content_3_title h1{
+    color: #003049;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10rem 0 0 0rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.content_3_description{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8rem 0 10rem 0rem;
+    font-size: 1.875rem;
+    color: white;
+}
+
+.content_4{
+    display: flex;
+}
+
+.floating_image{
+    width: 30.688rem;
+    height: 45.183rem;
+    padding: 5rem 3rem 3rem 5rem;
+}
+
+.content_4_texts{
+    padding: 7rem 5rem 3rem 3rem;
+    text-align: right;
+}
+
+.content_4_title h1{
+    color: #003049;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.content_4_description{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    font-size: 1.875rem;
+    padding-top: 2rem;
+}
