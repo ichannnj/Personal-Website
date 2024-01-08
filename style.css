@@ -458,7 +458,7 @@ body {
     align-items: center;
     padding: 2%;
     border: 5px solid #003049;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .sendmessage-round h1{
@@ -483,13 +483,15 @@ label{
 
 textarea{
     width: 100%;
-    height: 20rem;
+    height: 10rem;
+    border-radius: 10px;
 }
 
 input{
-    padding: 10%;
+    padding: 5% 10% 0 10% ;
     padding-bottom: 1%;
     width: 80%;
+    border-radius: 10px;
 }
 
 
